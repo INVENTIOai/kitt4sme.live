@@ -9,3 +9,21 @@ git config --global user.name "INVENTIOai"
 git config --global user.email repo@inventio.ai
 
 dato vari ok
+
+
+seguito tutti i ppassi, al comando:
+
+kustomize build \
+    https://github.com/c0c0n3/kitt4sme.live/deployment/mesh-infra/argocd | \
+    kubectl apply -f -
+
+sostituito con il nostro fork:
+
+kustomize build \
+    https://github.com/inventioai/kitt4sme.live/deployment/mesh-infra/argocd | \
+    kubectl apply -f -
+
+
+
+argo admin user password: 
+xTomcT-JCRDz4lsy
