@@ -1,0 +1,11 @@
+
+per fare i commit:
+
+installata estensione git extension pack
+entrato nell'estensione
+fatto login e dato gli accessi
+da terminale, fatto:
+git config --global user.name "INVENTIOai"
+git config --global user.email repo@inventio.ai
+
+dato vari ok
